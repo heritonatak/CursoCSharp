@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
-
+using CursoCSharp.ClassesEMetodos;
+ 
 namespace CursoCSharp
 {
     class Program
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
@@ -38,7 +39,10 @@ namespace CursoCSharp
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
                 {"Imprimir valores de Outra Class - Estruturas de Controle", ImprimeValores.Executar},
 
-                //
+                // Classes e Metodos
+                //{" Membros - Estruturas de Controle", Membros.Executar},
+                {" Usando Interface", ChamaPessoa.Executar},
+
             });
 
             central.SelecionarEExecutar();

@@ -7,7 +7,7 @@ namespace CursoCSharp.RelatorioOfx
     class ImportOfx
     {
         // Método Main executado ao rodar o programa
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Define o caminho do arquivo OFX (substitua pelo caminho correto)
             string filePath = "C:/Users/bugbounty/Documents/arquivo.ofx"; // Substitua pelo caminho correto

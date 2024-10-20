@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="ChamaPessoa.cs" />
+    <Compile Include="ClassesEMetodos\Membros.cs" />
+    <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="EstruturasDeControle\DadosClientes.cs" />
     <Compile Include="EstruturasDeControle\EstruturaBreak.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
@@ -68,6 +71,7 @@
     <Compile Include="Fundamentos\OperadoresUnarios.cs" />
     <Compile Include="Fundamentos\OperadorTernario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
+    <Compile Include="IPessoa\IPessoa.cs" />
     <Compile Include="OperadoresRelacionais.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
